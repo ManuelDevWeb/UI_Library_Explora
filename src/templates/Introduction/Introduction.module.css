@@ -1,0 +1,21 @@
+.introduction_title {
+    margin-bottom: 22px;
+    line-height: 65px;
+    color: var(--black-2);
+    font-size: var(--text-size-2);
+}
+
+.introduction_title span {
+    color: var(--red-3);
+}
+
+.introduction p {
+    margin-bottom: 80px;
+    letter-spacing: 0;
+    line-height: 23px;
+    font-size: var(--text-size-8);
+}
+
+.introduction div {
+    padding-right: 0;
+}

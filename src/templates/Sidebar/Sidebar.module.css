@@ -1,0 +1,53 @@
+/** Siderbar **/
+
+.sidebarContainer {
+    width: 364px;
+    max-width: 364px;
+    height: 100vh;
+    background-color: var(--red-3);
+}
+
+.sidebar {
+    color: #fff;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 2.6rem 2rem;
+    text-align: start;
+}
+
+.sidebar ul li {
+    width: 290px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--white);
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul li:hover {
+    background-color: var(--red-4);
+    border: 1px solid var(--red-4);
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul li a {
+    padding: 21px 24px;
+    letter-spacing: 0;
+    line-height: 23px;
+    font-family: 'Sora', sans-serif;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: var(--text-size-8);
+    color: var(--white);
+}
+
+.sidebar ul li a:hover {
+    font-weight: bold;
+    color: var(--white);
+}

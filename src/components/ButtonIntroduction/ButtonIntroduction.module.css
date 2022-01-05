@@ -1,0 +1,23 @@
+.buttonBanner {
+    float: left;
+    width: 160px;
+}
+
+.buttonBanner a {
+    text-decoration: none;
+}
+
+.buttonBanner_a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 1rem;
+}
+
+.buttonBanner hr {
+    height: 12px!important;
+    margin-top: 0px;
+    width: 40%;
+    opacity: 1
+}

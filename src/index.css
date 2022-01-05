@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
+html,
+body,
+h3,
+p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    color: #000;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
+
+ul {
+    padding-inline-start: 0px;
+    list-style: inherit;
+}
+
+:root {
+    --black-1: #000;
+    --black-2: #44444a;
+    --white: #fff;
+    --red-1: #ff7777;
+    --red-2: #ff6262;
+    --red-3: #f45858;
+    --red-4: #d55050;
+    --red-5: #c34848;
+    --yellow-1: #ffe874;
+    --yellow-2: #ffdb24;
+    --yellow-3: #f9d51d;
+    --yellow-4: #e0c122;
+    --yellow-5: #d3b622;
+    --green-1: #8ae08f;
+    --green-2: #7fce84;
+    --green-3: #70be75;
+    --green-4: #64aa69;
+    --green-5: #609d64;
+    --orange-1: #ff946e;
+    --orange-2: #ff6b36;
+    --orange-3: #f6571e;
+    --orange-4: #db5220;
+    --orange-5: #c95125;
+    --gray-1: #e6e6e6;
+    --gray-2: #e8e8ed;
+    --gray-3: #f2f2f7;
+    --text-size-1: 65px;
+    --text-size-2: 60px;
+    --text-size-3: 50px;
+    --text-size-4: 40px;
+    --text-size-5: 27px;
+    --text-size-6: 22px;
+    --text-size-7: 18px;
+    --text-size-8: 16px;
+    --text-size-9: 14px;
+}
+
+.font-weight-light {
+    font-weight: 200;
+}
+
+.font-weight-regular {
+    font-weight: 400;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-extra-bold {
+    font-weight: 800;
+}
+
+.font-uppercarse {
+    text-transform: uppercase;
+}
+
+.size-black {
+    color: var(--black-2);
+}
+
+.size-white {
+    color: var(--white);
+}
+
+.size-red {
+    color: var(--red-3);
+}
+
+
+/* .letterSpacing-sm {
+    letter-spacing: 0.05rem;
+}
+
+.letterSpacing-md {
+    letter-spacing: 0.08rem;
+}
+
+.letterSpacing-lg {
+    letter-spacing: 0.32rem;
+}
+
+.letterSpacing-xl {
+    letter-spacing: 0.25rem;
+}
+
+.lineHeight-lg {
+    line-height: 0.27rem;
+}
+
+.lineHeight-xl {
+    line-height: 1.5rem;
+} */
