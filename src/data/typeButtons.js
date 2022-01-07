@@ -1,0 +1,25 @@
+export const typeButtos = [{
+    title: 'Botones primario - rojo',
+    href: "#",
+    center: true,
+    colorBtn: "#f45858",
+    colorTxt: "#fff",
+    colorHr: "#F9D51D",
+    text: "Botón primario rojo",
+}, {
+    title: 'Botones primario - amarillo',
+    href: "#",
+    center: true,
+    colorBtn: "#F9D51D",
+    colorTxt: "#44444a",
+    colorHr: "#f45858",
+    text: "Botón primario amar",
+}, {
+    title: 'Botones primario - verde',
+    href: "#",
+    center: true,
+    colorBtn: "#64aa69",
+    colorTxt: "#fff",
+    colorHr: "#f45858",
+    text: "Botón primario verde",
+}];

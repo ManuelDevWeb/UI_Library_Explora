@@ -32,7 +32,7 @@ const NavLogos = ({ tab, setTab }) => {
                 </Nav.Link>
                 <Nav.Link
                     as={Link}
-                    to='/buttons'
+                    to='/'
                     className={`${tab ? styles.nav_linksLogos_link : styles.nav_linksLogos_linkActive}`}
                     onClick={() => { setTab(0) }}
                 >

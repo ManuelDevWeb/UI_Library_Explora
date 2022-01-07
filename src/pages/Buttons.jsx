@@ -1,12 +1,19 @@
 // Components
 import Header from '../templates/Header/Header';
+import InfoBotones from '../templates/InfoBotones/InfoBotones';
+import DetailsButtonsPrimary from '../templates/DetailsButtonsPrimary/DetailsButtonsPrimary';
+import DetailButtonSecondary from '../templates/DetailButtonSecondary/DetailButtonSecondary';
+import DetailButtonModule from '../templates/DetailButtonModule/DetailButtonModule';
 
 const Buttons = () => {
     return (  
         <>
             <Header title='Botones'/>
             <div className='container_info'>
-                <h1>Hola</h1>
+                <InfoBotones />
+                <DetailsButtonsPrimary />
+                <DetailButtonSecondary />
+                <DetailButtonModule />
             </div>
         </>
     );

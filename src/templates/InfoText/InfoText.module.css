@@ -1,0 +1,32 @@
+.infoText {
+    margin-bottom: 145px;
+}
+
+.infoText h1 {
+    color: var(--black-2);
+}
+
+.infoText h2 {
+    color: #6C6C6D;
+    margin-right: 52px;
+    margin-bottom: 0;
+    font-size: 149px;
+    line-height: 224px;
+}
+
+.infoText p {
+    color: #515151;
+    margin-bottom: 0;
+}
+
+.infoText h1 {
+    margin-bottom: 60px;
+    line-height: 33px;
+    font-weight: normal;
+    font-size: var(--text-size-5);
+}
+
+.infoText>div {
+    background-color: #FAFAFC;
+    padding: 24px 21px;
+}

@@ -1,0 +1,38 @@
+/** Acordion **/
+
+.accordionSpecifications_card {
+    border: none!important;
+}
+
+.accordionSpecifications_cardHeader,
+.accordionSpecifications_cardHeaderAlt {
+    padding: 0rem 0rem!important;
+    border-bottom: none!important;
+}
+
+.accordionSpecifications_cardHeader button,
+.accordionSpecifications_cardHeaderAlt button {
+    float: left;
+    margin-top: -63px;
+    padding: 20px 15px;
+    background: #F5F5FA;
+    border: none;
+    margin-bottom: 0;
+}
+
+.accordionSpecifications_cardHeaderAlt button {
+    margin-top: -119px;
+}
+
+.accordionSpecifications_cardHeader button p,
+.accordionSpecifications_cardHeaderAlt button p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #1b1b1b;
+    font-family: "Sora", sans-serif;
+}
+
+.accordionSpecifications_cardBody {
+    background: #F5F5FA;
+}

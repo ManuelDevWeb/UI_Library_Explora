@@ -1,0 +1,45 @@
+.containerDetailsButtonsPrimary {
+    margin-top: 220px;
+}
+
+.detailsButtonsPrimary {
+    margin-bottom: 180px;
+}
+
+.detailsButtonsPrimary h3 {
+    letter-spacing: 0px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    font-size: var(--text-size-7);
+    font-family: "Sora", sans-serif;
+    color: var(--black-2);
+}
+
+.detailsButtonsPrimary_example {
+    display: flex;
+    height: 252px;
+    background: #FAFAFC;
+}
+
+.buttonBanner {
+    width: 262px;
+}
+
+.buttonBanner a {
+    text-decoration: none;
+}
+
+.buttonBanner_a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 1rem;
+}
+
+.buttonBanner hr {
+    height: 12px!important;
+    margin-top: 0px;
+    width: 40%;
+    opacity: 1
+}

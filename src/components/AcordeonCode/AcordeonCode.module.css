@@ -1,0 +1,31 @@
+/** Acordion **/
+
+.accordion_card {
+    border: none!important;
+}
+
+.accordion_cardHeader {
+    padding: 0rem 0rem!important;
+    border-bottom: none!important;
+}
+
+.accordion_cardHeader button {
+    float: right;
+    margin-top: -63px;
+    padding: 20px 15px;
+    background: #F5F5FA;
+    border: none;
+    margin-bottom: 0;
+}
+
+.accordion_cardHeader button p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #1b1b1b;
+    font-family: "Sora", sans-serif;
+}
+
+.accordion_cardBody {
+    background: #F5F5FA;
+}

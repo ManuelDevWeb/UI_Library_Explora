@@ -1,0 +1,18 @@
+.infoBotones div {
+    padding-right: 0;
+}
+
+.infoBotones h2 {
+    line-height: 33px;
+    font-weight: normal;
+    font-size: var(--text-size-5);
+}
+
+.infoBotones p {
+    text-align: justify;
+}
+
+.infoBotones img {
+    display: block;
+    margin: 0 auto
+}
