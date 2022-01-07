@@ -7,36 +7,29 @@
     line-height: 23px;
     margin-bottom: 30px;
     font-weight: normal;
-    font-size: var(--text-size-7);
+    font-size: var(--text-size-5);
     font-family: "Sora", sans-serif;
     color: var(--black-2);
 }
 
 .textsPrimary_example {
-    display: flex;
+    padding: 0 25px;
     height: 252px;
+    color: var(--black-2);
     background: #FAFAFC;
 }
 
-.buttonBanner {
-    width: 262px;
+.textsPrimary_example h1 {
+    line-height: 65px;
+    font-size: var(--text-size-2);
 }
 
-.buttonBanner a {
-    text-decoration: none;
+.textsPrimary_example h2 {
+    line-height: 50px;
+    font-size: var(--text-size-4);
 }
 
-.buttonBanner_a {
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.1rem 1rem;
-}
-
-.buttonBanner hr {
-    height: 12px!important;
-    margin-top: 0px;
-    width: 40%;
-    opacity: 1
+.textsPrimary_example h3 {
+    line-height: 33px;
+    font-size: var(--text-size-5);
 }

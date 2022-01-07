@@ -1,0 +1,25 @@
+.textBodies {
+    margin-bottom: 180px;
+}
+
+.textBodies h3 {
+    letter-spacing: 0px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: var(--text-size-5);
+    font-family: "Sora", sans-serif;
+    color: var(--black-2);
+}
+
+.textBodies_example {
+    padding: 0 80px;
+    height: 252px;
+    background: #FAFAFC;
+}
+
+.textBodies_example p {
+    text-align: justify;
+    line-height: 23px;
+    font-size: var(--text-size-8);
+}

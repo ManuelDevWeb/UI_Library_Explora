@@ -6,7 +6,7 @@ import logoCode from '../../assets/logoCode.png';
 // Styles
 import styles from './AcordeonCode.module.css';
 
-function CustomToggle({ children, eventKey,setAcordeonCodeActive, acordeonCodeActive }) {
+function CustomToggle({ children, eventKey, setAcordeonCodeActive, acordeonCodeActive }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>
         setAcordeonCodeActive(!acordeonCodeActive),
     );
@@ -23,7 +23,7 @@ function CustomToggle({ children, eventKey,setAcordeonCodeActive, acordeonCodeAc
     );
 }
 
-function AcordeonCode({setAcordeonCodeActive, acordeonCodeActive}) {
+function AcordeonCode({ setAcordeonCodeActive, acordeonCodeActive, children }) {
     return (
         <Accordion>
             <Card className={styles.accordion_card}>
@@ -31,7 +31,8 @@ function AcordeonCode({setAcordeonCodeActive, acordeonCodeActive}) {
                     <CustomToggle eventKey="0" setAcordeonCodeActive={setAcordeonCodeActive} acordeonCodeActive={acordeonCodeActive}>Ver código</CustomToggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body className={styles.accordion_cardBody}>HTML</Card.Body>
+                    <Card.Body className={styles.accordion_cardBody}>                        
+                    </Card.Body>
                 </Accordion.Collapse>
             </Card>
         </Accordion>
