@@ -28,4 +28,6 @@
 
 .accordion_cardBody {
     background: #F5F5FA;
+    padding: 41px 25px!important;
+    font-family: "Sora", sans-serif;
 }

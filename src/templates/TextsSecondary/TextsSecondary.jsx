@@ -19,7 +19,35 @@ const TextsSecondary = () => {
                 <p className='font-weight-light ${textSubmodules}'>Subcategorias módulos</p>
             </div>
             <AcordeonCode acordeonCodeActive={acordeonCodeActive} setAcordeonCodeActive={setAcordeonCodeActive} />
-            <AcordeonSpecifications acordeonCodeActive={acordeonCodeActive} />
+            <AcordeonSpecifications acordeonCodeActive={acordeonCodeActive}>
+                <div className='d-flex justify-content-around align-items-center'>
+                    <ul>
+                        <p className='mb-0 text-white font-weight-bold'>Botones</p>
+                        <li>SORA - altas</li>
+                        <li>Bold</li>
+                        <li>Size: 60px</li>
+                        <li>Line height: 65px</li>
+                        <li>Color: #44444A</li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <p className='mb-0 text-white font-weight-bold'>Títulos módulos</p>
+                        <li>SORA - altas</li>
+                        <li>Bold</li>
+                        <li>Size: 40px</li>
+                        <li>Line height: 65px</li>
+                        <li>Color: #44444A</li>
+                    </ul>
+                    <ul>
+                        <p className='mb-0 text-white font-weight-bold'>Subcategorías módulos</p>
+                        <li>SORA - altas</li>
+                        <li>Regular</li>
+                        <li>Size: 27px</li>
+                        <li>Line height: 33px</li>
+                        <li>Color #44444A</li>
+                    </ul>
+                </div>
+            </AcordeonSpecifications>
         </div>
     );
 }

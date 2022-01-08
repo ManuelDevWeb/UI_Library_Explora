@@ -1,8 +1,8 @@
-.detailsButtonsModule {
+.detailsButtonTextActive {
     margin-bottom: 180px;
 }
 
-.detailsButtonsModule h3 {
+.detailsButtonTextActive h3 {
     letter-spacing: 0px;
     line-height: 23px;
     margin-bottom: 30px;
@@ -11,7 +11,7 @@
     color: var(--black-2);
 }
 
-.detailsButtonsModule_example {
+.detailsButtonTextActive_example {
     padding: 0rem 7rem;
     display: flex;
     height: 252px;
@@ -22,15 +22,13 @@
     text-decoration: none;
 }
 
-.buttonBanner_a {
+.buttonBanner_a p {
     font-size: 14px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.75rem 2.8rem 0.7rem 2rem;
+    line-height: 25px;
 }
 
-.buttonBanner_a {
-    line-height: 23px;
+.buttonBanner_a p:hover {
+    font-weight: bold;
 }
 
 .buttonBanner hr {

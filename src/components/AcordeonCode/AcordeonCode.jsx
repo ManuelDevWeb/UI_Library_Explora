@@ -24,6 +24,7 @@ function CustomToggle({ children, eventKey, setAcordeonCodeActive, acordeonCodeA
 }
 
 function AcordeonCode({ setAcordeonCodeActive, acordeonCodeActive, children }) {
+    console.log(children);
     return (
         <Accordion>
             <Card className={styles.accordion_card}>
@@ -31,7 +32,8 @@ function AcordeonCode({ setAcordeonCodeActive, acordeonCodeActive, children }) {
                     <CustomToggle eventKey="0" setAcordeonCodeActive={setAcordeonCodeActive} acordeonCodeActive={acordeonCodeActive}>Ver código</CustomToggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body className={styles.accordion_cardBody}>                        
+                    <Card.Body className={styles.accordion_cardBody}>
+                        {children}      
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>

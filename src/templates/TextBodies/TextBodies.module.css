@@ -19,7 +19,8 @@
 }
 
 .textBodies_example p {
-    text-align: justify;
+    /* text-align: justify; */
+    font-weight: lighter!important;
     line-height: 23px;
     font-size: var(--text-size-8);
 }

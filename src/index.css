@@ -11,6 +11,10 @@ p {
     box-sizing: border-box;
 }
 
+span {
+    font-family: "Sora", sans-serif;
+}
+
 a {
     text-decoration: inherit;
     color: inherit;
